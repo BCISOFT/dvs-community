@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.devspaces.cloud
+    about: Check the documentation before opening an issue
+  - name: Discord Community
+    url: https://discord.gg/TvncjBJzkp
+    about: Get help from the community in real-time
+  - name: Discussions
+    url: https://github.com/BCISOFT/dvs-community/discussions
+    about: Ask questions and share ideas

@@ -1,0 +1,113 @@
+# GitHub Labels Configuration
+# Apply with: gh label import labels.yml (or use GitHub Actions)
+# Or create manually in Settings > Labels
+
+# Issue Types
+- name: bug
+  color: "d73a4a"
+  description: Something isn't working
+
+- name: enhancement
+  color: "a2eeef"
+  description: New feature or request
+
+- name: recipe
+  color: "7057ff"
+  description: New recipe request
+
+- name: documentation
+  color: "0075ca"
+  description: Improvements or additions to documentation
+
+- name: question
+  color: "d876e3"
+  description: Further information is requested
+
+# Status
+- name: triage
+  color: "fbca04"
+  description: Needs initial review
+
+- name: confirmed
+  color: "0e8a16"
+  description: Issue has been confirmed
+
+- name: wontfix
+  color: "ffffff"
+  description: This will not be worked on
+
+- name: duplicate
+  color: "cfd3d7"
+  description: This issue or pull request already exists
+
+- name: invalid
+  color: "e4e669"
+  description: This doesn't seem right
+
+# Priority
+- name: "priority: critical"
+  color: "b60205"
+  description: Critical priority - needs immediate attention
+
+- name: "priority: high"
+  color: "d93f0b"
+  description: High priority
+
+- name: "priority: medium"
+  color: "fbca04"
+  description: Medium priority
+
+- name: "priority: low"
+  color: "0e8a16"
+  description: Low priority - nice to have
+
+# Components
+- name: "component: cli"
+  color: "1d76db"
+  description: Related to the DVS CLI
+
+- name: "component: recipes"
+  color: "1d76db"
+  description: Related to recipes
+
+- name: "component: storage"
+  color: "1d76db"
+  description: Related to backup/storage features
+
+- name: "component: tunnel"
+  color: "1d76db"
+  description: Related to tunnel features
+
+- name: "component: ui"
+  color: "1d76db"
+  description: Related to the UI
+
+# Platform
+- name: "platform: macos"
+  color: "c5def5"
+  description: macOS specific
+
+- name: "platform: linux"
+  color: "c5def5"
+  description: Linux specific
+
+- name: "platform: docker-desktop"
+  color: "c5def5"
+  description: Docker Desktop specific
+
+- name: "platform: orbstack"
+  color: "c5def5"
+  description: OrbStack specific
+
+# Community
+- name: "good first issue"
+  color: "7057ff"
+  description: Good for newcomers
+
+- name: "help wanted"
+  color: "008672"
+  description: Extra attention is needed
+
+- name: "community"
+  color: "bfdadc"
+  description: Community contribution

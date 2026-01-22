@@ -1,0 +1,67 @@
+name: Recipe Request
+description: Request a new recipe for a framework or CMS
+title: "[Recipe]: "
+labels: ["recipe", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Want DevSpaces to support a new framework or CMS? Let us know!
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues to ensure this recipe hasn't been requested
+          required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Framework/CMS Name
+      placeholder: "Drupal, Magento, Shopware..."
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Official Website
+      placeholder: "https://..."
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the framework and why you use it
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Technical Requirements
+      description: What services does this framework typically need?
+      placeholder: |
+        - PHP 8.2+
+        - MySQL or PostgreSQL
+        - Redis (optional)
+        - Elasticsearch (optional)
+
+  - type: textarea
+    id: docker
+    attributes:
+      label: Existing Docker Setup (if any)
+      description: Do you have an existing Docker setup you can share?
+
+  - type: dropdown
+    id: demand
+    attributes:
+      label: How popular is this framework in your experience?
+      options:
+        - Niche - personal projects
+        - Growing - used by some teams
+        - Popular - widely used in the industry
+    validations:
+      required: true

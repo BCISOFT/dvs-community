@@ -1,0 +1,27 @@
+title: "[Show] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share your DevSpaces setup, workflows, tips, or anything cool you've built!
+
+  - type: textarea
+    id: showcase
+    attributes:
+      label: What are you sharing?
+      description: Tell us about your setup, workflow, or project
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Configuration files, screenshots, or more details
+
+  - type: textarea
+    id: learnings
+    attributes:
+      label: Key Learnings
+      description: What did you learn? Any tips for others?

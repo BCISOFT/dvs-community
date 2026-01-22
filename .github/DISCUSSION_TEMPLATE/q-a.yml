@@ -1,0 +1,33 @@
+title: "[Q&A] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a question about DevSpaces. The community and maintainers will help you.
+        
+        **Posez votre question !** Vous pouvez écrire en français.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before asking
+      options:
+        - label: I have checked the [documentation](https://docs.devspaces.cloud)
+          required: true
+        - label: I have searched existing discussions
+          required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any additional context that might help answer your question

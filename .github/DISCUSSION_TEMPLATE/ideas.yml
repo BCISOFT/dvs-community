@@ -1,0 +1,29 @@
+title: "[Idea] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share your ideas for DevSpaces! This is a place for early-stage ideas and brainstorming.
+        
+        For well-defined feature requests, please use the Issues tab instead.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your Idea
+      description: Describe your idea
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why would this be useful? What problem does it solve?
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples
+      description: Any examples, mockups, or references?
