@@ -11,3 +11,4 @@ Thumbs.db
 # Local
 *.local
 .env
+.github/SETUP_GITHUB.md
